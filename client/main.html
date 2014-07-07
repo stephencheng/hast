@@ -18,16 +18,17 @@
 <template name="header">
 <header class="navbar full-screen-related">
   <div class="navbar-inner customized">
-    <a class="brand" href="/">
-      Hast
+    <a class="brand" href="#">
+      Openshif PAAS Demo
     </a>
     <ul class="nav">
       <li>
-      <a href="{{pathFor 'home'}}">Home</a>
+      <!-- <a href="{{pathFor 'home'}}">Home</a> -->
+      
       </li>
       {{#if currentUser}}
       <li>
-      <a href="{{pathFor 'oldHast'}}">Archives</a>
+      <a href="{{pathFor 'oldHast'}}">Slides</a>
       </li>
       {{/if}}
       <li>{{> loginButtons}}</li>
